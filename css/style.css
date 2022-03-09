@@ -1,0 +1,176 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.col-md-8 float-right #menu {
+    padding-left: 100px;
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head {
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after {
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#header {
+    color: #fff;
+    background: #e74c3c;
+}
+
+#logo {
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu li a:hover {
+    background: #c0392b;
+}
+
+#banner {
+    background: url('../images/banner.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner-title {
+    padding-top: 12rem;
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead {
+    color: #fff;
+    background: rgba(237, 63, 62, 0.7);
+    padding: 10px;
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i.fa {
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonials {
+    color: #fff;
+    background: url(../images/testimonails-bg.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+#testimonials:before {
+    background: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.testimonials img {
+    height: 100px;
+    width: 100px;
+}
+
+.news-post img {
+    height: 150px;
+    width: 200px;
+}
+
+.news-post img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3 {
+    font-size: 1.35rem;
+}
+
+.news-post h3 a {
+    color: #e74c3c;
+}
+
+.post-date {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.post-date:before {
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+a.readmore {
+    font-size: 14px;
+    color: #e74c3c;
+}
+
+a.readmore:after {
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+
+#footer-sidebar {
+    color: #e74c3c;
+    color: #fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+
+.footer-widget h4:after {
+    content: "";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer-widget a {
+    text-decoration: none;
+    color: #fff;
+}

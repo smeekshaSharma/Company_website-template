@@ -1,0 +1,16 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.col-md-8 float-right #menu {
+    padding-left: 100px;
+}
